@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Html 5</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="stylesheet" href="/home/dhiraj/Desktop/pratical tutorial/SPARK WEB/style.css">
+    <style>
+        #div1 {
+            height: 100px;
+            width: 100px;
+            border: 1px solid aqua;
+        }
+        
+        ;
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <header> Welcome html5</header>
+    <article>
+        <header>
+            <h1>Most important heading here</h1>
+            <h3>Less important heading here</h3>
+            <p>some additonal information here.</p>
+        </header>
+        <p>Loreum dolor set amet...</p>
+    </article>
+    <hr>
+    <footer>
+        <h1>footer section</h1>
+        <p> posted by:hege Refsnses</p>
+        <p>contact information:<a href="mailto:someone@example.com">someone@example.com</a></p>
+    </footer>
+    <main>
+        <h1>Wed Browser</h1>
+        <p>Google chrome,Firrefox,and Internet Explorer are the most used browsers today.</p>
+    </main>
+    <article>
+        <h1>Internet Explorer</h1>
+        <p>Internet Explorer is a free web brower</p>
+    </article>
+    <article>
+        <h1>Mozilla Firefox</h1>
+        <p>Firefox is a free open sourse web.
+
+        </p>
+    </article>
+    <section>
+        <h1>wwF</h1>
+        <p>The world wide fund for Nature (wwF) is an inernational organiza</p>
+    </section>
+
+    <!-- aduio,video -->
+
+    <p contenteditable="true">thi is a paragraph.it is editable.try to change this text.</p>
+    <h1>spcies</h1>
+    <p>click on a species to see what type it</p>
+    <ul>
+        <li onclick="showDetails(this)" id="owl" data-animal-type="bird">owl</li>
+    </ul>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <p id="drag1" draggable="true" ondragstart="drag(event)"> this is a draggle paragraph.</p>
+
+    <p onload="myFunction()"> hello</p>
+    <h1>Hello world</h1>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
